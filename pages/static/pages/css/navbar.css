@@ -1,0 +1,39 @@
+.navbar__container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #fff;
+    height: 4rem;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+}
+
+.nav__logo a{
+    color: #032362;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.nav__link {
+    color: #032362;
+    margin-top: 1.5rem;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.nav__button {
+    background: #032362;
+    height: 2rem;
+    width: 4rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    border-radius: .2rem;
+}
+
+.nav__button a {
+    padding-top: .5rem;
+    color: #fff;
+}

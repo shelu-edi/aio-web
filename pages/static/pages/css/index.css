@@ -1,0 +1,127 @@
+/* Animation */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+/* Hero */
+.hero__container {
+    top: 0;
+    display: flex;
+    padding-top: 10rem;
+    height: 25rem;
+    color: blue;
+    justify-content: space-evenly;
+}
+
+.hero__info {
+    margin-right: 20rem;
+}
+
+.hero__top {
+    color: #032362;
+    font-size: 3rem;
+    animation: fadeIn 1s;
+}
+
+.hero__middle {
+    color: #000;
+    margin: 2rem 0;
+    animation: fadeIn 1.5s;
+}
+
+.hero__img__container img {
+    width: 10rem;
+    animation: fadeIn 2s;
+}
+
+.hero__container img {
+    animation: fadeIn 2.5s;
+}
+
+/* info */
+.info__container {
+    height: 20rem;
+    background: #032362;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info__card {
+    margin-top: 5rem;
+}
+
+.info__card p {
+    animation: fadeIn 3s;
+    color: #fff;
+}
+
+.info__card img {
+    width: 7rem;
+    margin-left: 2rem;
+    animation: fadeIn 3.5s;
+}
+
+/* Details */
+.details__container {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.details__wrapper {
+    margin-top: 10rem;
+}
+
+.details__head {
+    color: #032362;
+    font-size: 3rem;
+}
+
+.detials__info {
+    color: #000;
+    font-size: 1.5rem;
+
+}
+
+/* Stores */
+.store__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.store__container h1 {
+    color: #032362;
+    text-align: center;
+}
+
+.store__wrapper {
+    margin:1rem 0 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.store__card {
+    width: 20rem;
+    height: 20rem;
+}
+
+.store__card img {
+    width: 20rem;
+}
+
+.store__card img:hover {
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+
+
+
+
+

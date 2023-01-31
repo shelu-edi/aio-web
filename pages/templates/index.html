@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+{% load static %}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+
+    {% block title %}
+    <title>AIO | Much More Than An App</title>
+    {% endblock %}
+
+    {% block extra__css %}
+        <link rel="stylesheet" href="{% static 'pages/css/index.css' %}">
+    {% endblock %}
+
+ </head>
+<body>
+
+    {% block content %}
+
+    <!-- Hero -->
+    <div class="hero__container">
+        <div class="hero__info">
+            <div class="hero__top"> Not Just Another App </div>
+            <div class="hero__middle"> Available Now </div>
+            <div class="hero__img__container">
+                <img src="{% static 'pages/img/play-store.png' %}" alt="play-store">
+                <img src="{% static 'pages/img/app-store.png' %}" alt="app-store">
+            </div>
+        </div>
+        <img src="{% static 'pages/img/directions.svg' %}" alt="hero-img">
+    </div>
+
+    <!-- Info -->
+    <div class="info__container">
+        <div class="info__card">
+            <img src="{% static 'pages/img/search.png' %}" alt="info-img">
+            <p> Search For What You Want </p>
+        </div>
+        <div class="info__card">
+            <img src="{% static 'pages/img/list.png' %}" alt="info-img">
+            <p> Select your Desired Place </p>
+        </div>
+        <div class="info__card">
+            <img src="{% static 'pages/img/book.png' %}" alt="info-img" style="margin-left: 0">
+            <p> Know All About It </p>
+        </div>
+    </div>
+
+    <!-- Details -->
+    <div class="details__container" >
+        <img class="animate__animated animate__fadeInUp" src="{% static 'pages/img/AIO1.png' %}" alt="details-img">
+        <div class="details__wrapper" >
+            <div class="details__head animate__animated animate__fadeInUp"> Only App You Need </div>
+            <div class="detials__info animate__animated animate__fadeInUp"> Some Line </div>
+        </div>
+    </div>
+
+    <!-- Stores -->
+    <div class="store__container">
+        <h1> Featured Stores </h1>
+        <div class="store__wrapper">
+            <div class="store__card animate__animated animate__fadeInUp">
+                <img src="{% static 'pages/img/calvin_klein.svg' %}" alt="store-logo">
+            </div>
+            <div class="store__card animate__animated animate__fadeInUp">
+                <img src="{% static 'pages/img/calvin_klein.svg' %}" alt="store-logo">
+            </div>
+            <div class="store__card animate__animated animate__fadeInUp">
+                <img src="{% static 'pages/img/calvin_klein.svg' %}" alt="store-logo">
+            </div>
+            <div class="store__card animate__animated animate__fadeInUp">
+                <img src="{% static 'pages/img/calvin_klein.svg' %}" alt="store-logo">
+            </div>
+            <div class="store__card animate__animated animate__fadeInUp">
+                <img src="{% static 'pages/img/calvin_klein.svg' %}" alt="store-logo">
+            </div>
+            <div class="store__card animate__animated animate__fadeInUp">
+                <img src="{% static 'pages/img/calvin_klein.svg' %}" alt="store-logo">
+            </div>
+        </div>
+
+    </div>
+
+
+    {% endblock %}
+
+    {% block extra_js %}
+    {% endblock %}
+</body>
+
+</html>

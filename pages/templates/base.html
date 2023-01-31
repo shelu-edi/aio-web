@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+
+    {% block title %}
+    <title>AIO | Much More Than An App</title>
+    {% endblock %}
+
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+        * {
+           font-family: 'Poppins', sans-serif;
+           /* font-family: Merlo; */
+            top: 0;
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" ref="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    {% block extra__css %}
+    {% endblock %}
+
+
+ </head>
+<body>
+    {% include 'navbar.html' %}
+
+    {% block content %}
+        Some Content
+    {% endblock %}
+
+    {% block extra_js %}
+    {% endblock %}
+
+    {% include 'footer.html' %}
+
+</body>
+
+</html>
