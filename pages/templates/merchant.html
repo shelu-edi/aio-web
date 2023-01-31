@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+{% load static %}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+
+    {% block title %}
+    <title>AIO | Much More Than An App</title>
+    {% endblock %}
+
+    {% block extra__css %}
+        <link rel="stylesheet" href="{% static 'pages/css/merchant.css' %}">
+    {% endblock %}
+
+ </head>
+<body>
+
+    {% block content %}
+
+    <!-- Hero -->
+    <div class="hero__container">
+        <div class="hero__info"> Some Tagline </div>
+        <img src="{% static 'pages/img/coffee.svg' %}" alt="hero-img">
+    </div>
+
+    <!-- Join -->
+    <div class="join__container">
+        <form action="" method="post" class="joi__form">
+            form
+        </form>
+        <img src="{% static 'pages/img/AIO1.png' %}" alt="join-img">
+    </div>
+
+    {% endblock %}
+
+    {% block extra_js %}
+    {% endblock %}
+</body>
+
+</html>

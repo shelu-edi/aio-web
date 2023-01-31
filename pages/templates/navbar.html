@@ -14,8 +14,8 @@
 <body>
     <div class="navbar__container">
         <div class="nav__logo"> <a href="/">AIO</a> </div>
-        <div class="nav__link active"> Customer </div>
-        <div class="nav__link"> Merchant </div>
+        <a href="/" class="nav__link active"> Customer </a>
+        <a  href="{% url 'merchant_view' %}" class="nav__link"> Merchant </a>
         <div class="nav__button">
             <a> Login </a>
         </div>

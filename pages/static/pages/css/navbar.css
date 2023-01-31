@@ -18,7 +18,10 @@
 .nav__link {
     color: #032362;
     margin-top: 1.5rem;
+    text-decoration: none;
 }
+
+
 
 .active {
     font-weight: 600;
