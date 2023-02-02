@@ -1,10 +1,10 @@
 .footer__container {
     background: #032362;
-    height: 10rem;
+    height: 12rem;
     color: #fff;
     display: flex;
     justify-content: space-around;
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 
 .footer__card__wrapper {
@@ -32,5 +32,9 @@
     font-size: .8rem;
     text-align: center;
     margin: .3rem 0;
+}
+
+.footer__link:hover {
+    text-decoration: none;
 }
 

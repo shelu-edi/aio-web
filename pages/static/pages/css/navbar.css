@@ -21,7 +21,9 @@
     text-decoration: none;
 }
 
-
+.nav__link:hover {
+    text-decoration: none;
+}
 
 .active {
     font-weight: 600;
@@ -32,11 +34,19 @@
     height: 2rem;
     width: 4rem;
     margin-top: 1.5rem;
+    padding-top: .2rem;
     text-align: center;
     border-radius: .2rem;
+    color: #fff;
 }
 
 .nav__button a {
-    padding-top: .5rem;
     color: #fff;
 }
+
+.nav__button a:hover {
+    text-decoration: none;
+}
+
+
+

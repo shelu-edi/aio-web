@@ -120,6 +120,45 @@
     filter: grayscale(100%);
 }
 
+/* FAQ */
+.faq__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.faq__title {
+    width: 100%;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.faq__title:hover {
+    cursor: pointer;
+}
+
+.faq__info {
+    padding: .5rem 0;
+    width: 100%;
+    background: #032362;
+    color: #fff;
+    text-align: center;
+    display: block;
+    animation: fadeIn 1s;
+    transition: all .5s ease-in;
+}
+
+.accordion {
+    align-self: center;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    align-self: center;
+}
+
 
 
 
